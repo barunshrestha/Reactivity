@@ -5,14 +5,12 @@ namespace Persistence
     {
         public static async Task SeedData(DataContext context)
         {
-            var txt = "First commit after clonning";
-            txt = "second commit";
             if (context.Activities.Any()) return;
             
             var activities = new List<Activity>
             {
                 new Activity
-                {                    
+                {
                     Title = "Past Activity 1",
                     Date = DateTime.UtcNow.AddMonths(-2),
                     Description = "Activity 2 months ago",
