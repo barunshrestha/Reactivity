@@ -7,6 +7,8 @@ namespace Persistence
         {
             var txt = "First commit after clonning";
             txt = "second commit";
+            txt = "Third commit";
+
             if (context.Activities.Any()) return;
             
             var activities = new List<Activity>
