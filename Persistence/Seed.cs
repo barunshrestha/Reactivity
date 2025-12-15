@@ -9,6 +9,9 @@ namespace Persistence
             reset = "second reset";
             reset = "third reset";
             reset = "fourth reset";
+            reset = "fifth reset";
+            reset = "sixth reset";
+           
             if (context.Activities.Any()) return;
             
             var activities = new List<Activity>
