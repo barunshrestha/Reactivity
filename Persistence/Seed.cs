@@ -5,6 +5,7 @@ namespace Persistence
     {
         public static async Task SeedData(DataContext context)
         {
+            var reset = "First reset";            
             if (context.Activities.Any()) return;
             
             var activities = new List<Activity>
