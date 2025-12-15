@@ -7,8 +7,6 @@ namespace Persistence
         {
             var reset = "First reset";
             reset = "second reset";
-            reset = "third reset";
-            reset = "fourth reset";
             if (context.Activities.Any()) return;
             
             var activities = new List<Activity>
