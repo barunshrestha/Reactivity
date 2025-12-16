@@ -11,7 +11,14 @@ namespace Persistence
             reset = "fourth reset";
             reset = "fifth reset";
             reset = "sixth reset";
+<<<<<<< HEAD
            
+=======
+            reset = "7th reset";
+            reset = "First file added";
+            reset = "second file added";
+            reset = "third file added";
+>>>>>>> feature2
             if (context.Activities.Any()) return;
             
             var activities = new List<Activity>
